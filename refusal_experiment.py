@@ -10,7 +10,7 @@
 #   3. Amplification — maximally activate direction on harmless prompts → spurious refusals
 #
 # Prerequisites (Colab):
-#   - Runtime: A100 GPU
+#   - 24gb Ram ideally 
 #   - Upload harmful_prompts.json and harmless_prompts.json to /content/
 #   - HuggingFace token with access to meta-llama/Llama-3.2-3B-Instruct
 # =============================================================================
@@ -424,7 +424,7 @@ INNOCUOUS_PROMPTS_RAW = [
     "What is the capital of France?",
     "How do I boil an egg?",
     "What year was the Eiffel Tower built?",
-    "Can you recommend a good book to read?",
+    "Can you recommend a good cookbook?",
     "What is the speed of light?",
     "How do I tie a shoelace?",
     "What is photosynthesis?",
